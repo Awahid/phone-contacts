@@ -16,6 +16,8 @@
 		EAAA540F1E70143100E54474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAA540D1E70143100E54474 /* LaunchScreen.storyboard */; };
 		EAAA541A1E70143100E54474 /* CoreDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA54191E70143100E54474 /* CoreDataTestTests.m */; };
 		EAAA54251E70143100E54474 /* CoreDataTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA54241E70143100E54474 /* CoreDataTestUITests.m */; };
+		EAAA54391E7015FF00E54474 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAA54371E7015FF00E54474 /* AddressBook.framework */; };
+		EAAA543A1E7015FF00E54474 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAA54381E7015FF00E54474 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EAAA53F91E70143100E54474 /* CoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAA53F91E70143100E54474 /* PhoneContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAA53FD1E70143100E54474 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAAA53FF1E70143100E54474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAAA54001E70143100E54474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +49,14 @@
 		EAAA540B1E70143100E54474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAAA540E1E70143100E54474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAAA54101E70143100E54474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAAA54151E70143100E54474 /* CoreDataTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAA54151E70143100E54474 /* PhoneContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAA54191E70143100E54474 /* CoreDataTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestTests.m; sourceTree = "<group>"; };
 		EAAA541B1E70143100E54474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAAA54201E70143100E54474 /* CoreDataTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAA54201E70143100E54474 /* PhoneContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAA54241E70143100E54474 /* CoreDataTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestUITests.m; sourceTree = "<group>"; };
 		EAAA54261E70143100E54474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAA54371E7015FF00E54474 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		EAAA54381E7015FF00E54474 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAAA54391E7015FF00E54474 /* AddressBook.framework in Frameworks */,
+				EAAA543A1E7015FF00E54474 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,15 +93,16 @@
 				EAAA54181E70143100E54474 /* CoreDataTestTests */,
 				EAAA54231E70143100E54474 /* CoreDataTestUITests */,
 				EAAA53FA1E70143100E54474 /* Products */,
+				EAAA54361E7015FE00E54474 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EAAA53FA1E70143100E54474 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAAA53F91E70143100E54474 /* CoreDataTest.app */,
-				EAAA54151E70143100E54474 /* CoreDataTestTests.xctest */,
-				EAAA54201E70143100E54474 /* CoreDataTestUITests.xctest */,
+				EAAA53F91E70143100E54474 /* PhoneContacts.app */,
+				EAAA54151E70143100E54474 /* PhoneContactsTests.xctest */,
+				EAAA54201E70143100E54474 /* PhoneContactsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,12 +150,21 @@
 			path = CoreDataTestUITests;
 			sourceTree = "<group>";
 		};
+		EAAA54361E7015FE00E54474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA54371E7015FF00E54474 /* AddressBook.framework */,
+				EAAA54381E7015FF00E54474 /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAAA53F81E70143100E54474 /* CoreDataTest */ = {
+		EAAA53F81E70143100E54474 /* PhoneContacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAA54291E70143100E54474 /* Build configuration list for PBXNativeTarget "CoreDataTest" */;
+			buildConfigurationList = EAAA54291E70143100E54474 /* Build configuration list for PBXNativeTarget "PhoneContacts" */;
 			buildPhases = (
 				EAAA53F51E70143100E54474 /* Sources */,
 				EAAA53F61E70143100E54474 /* Frameworks */,
@@ -158,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = CoreDataTest;
+			name = PhoneContacts;
 			productName = CoreDataTest;
-			productReference = EAAA53F91E70143100E54474 /* CoreDataTest.app */;
+			productReference = EAAA53F91E70143100E54474 /* PhoneContacts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAAA54141E70143100E54474 /* CoreDataTestTests */ = {
+		EAAA54141E70143100E54474 /* PhoneContactsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAA542C1E70143100E54474 /* Build configuration list for PBXNativeTarget "CoreDataTestTests" */;
+			buildConfigurationList = EAAA542C1E70143100E54474 /* Build configuration list for PBXNativeTarget "PhoneContactsTests" */;
 			buildPhases = (
 				EAAA54111E70143100E54474 /* Sources */,
 				EAAA54121E70143100E54474 /* Frameworks */,
@@ -176,14 +192,14 @@
 			dependencies = (
 				EAAA54171E70143100E54474 /* PBXTargetDependency */,
 			);
-			name = CoreDataTestTests;
+			name = PhoneContactsTests;
 			productName = CoreDataTestTests;
-			productReference = EAAA54151E70143100E54474 /* CoreDataTestTests.xctest */;
+			productReference = EAAA54151E70143100E54474 /* PhoneContactsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EAAA541F1E70143100E54474 /* CoreDataTestUITests */ = {
+		EAAA541F1E70143100E54474 /* PhoneContactsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAA542F1E70143100E54474 /* Build configuration list for PBXNativeTarget "CoreDataTestUITests" */;
+			buildConfigurationList = EAAA542F1E70143100E54474 /* Build configuration list for PBXNativeTarget "PhoneContactsUITests" */;
 			buildPhases = (
 				EAAA541C1E70143100E54474 /* Sources */,
 				EAAA541D1E70143100E54474 /* Frameworks */,
@@ -194,9 +210,9 @@
 			dependencies = (
 				EAAA54221E70143100E54474 /* PBXTargetDependency */,
 			);
-			name = CoreDataTestUITests;
+			name = PhoneContactsUITests;
 			productName = CoreDataTestUITests;
-			productReference = EAAA54201E70143100E54474 /* CoreDataTestUITests.xctest */;
+			productReference = EAAA54201E70143100E54474 /* PhoneContactsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,6 +226,7 @@
 				TargetAttributes = {
 					EAAA53F81E70143100E54474 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E78S6VVK82;
 						ProvisioningStyle = Automatic;
 					};
 					EAAA54141E70143100E54474 = {
@@ -224,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EAAA53F41E70143100E54474 /* Build configuration list for PBXProject "CoreDataTest" */;
+			buildConfigurationList = EAAA53F41E70143100E54474 /* Build configuration list for PBXProject "PhoneContacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,9 +254,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAAA53F81E70143100E54474 /* CoreDataTest */,
-				EAAA54141E70143100E54474 /* CoreDataTestTests */,
-				EAAA541F1E70143100E54474 /* CoreDataTestUITests */,
+				EAAA53F81E70143100E54474 /* PhoneContacts */,
+				EAAA54141E70143100E54474 /* PhoneContactsTests */,
+				EAAA541F1E70143100E54474 /* PhoneContactsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		EAAA54171E70143100E54474 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAAA53F81E70143100E54474 /* CoreDataTest */;
+			target = EAAA53F81E70143100E54474 /* PhoneContacts */;
 			targetProxy = EAAA54161E70143100E54474 /* PBXContainerItemProxy */;
 		};
 		EAAA54221E70143100E54474 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAAA53F81E70143100E54474 /* CoreDataTest */;
+			target = EAAA53F81E70143100E54474 /* PhoneContacts */;
 			targetProxy = EAAA54211E70143100E54474 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,7 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E78S6VVK82;
 				INFOPLIST_FILE = CoreDataTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GRID.CoreDataTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,7 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E78S6VVK82;
 				INFOPLIST_FILE = CoreDataTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GRID.CoreDataTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,7 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GRID.CoreDataTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataTest.app/CoreDataTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneContacts.app/PhoneContacts";
 			};
 			name = Debug;
 		};
@@ -466,7 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GRID.CoreDataTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataTest.app/CoreDataTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneContacts.app/PhoneContacts";
 			};
 			name = Release;
 		};
@@ -495,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAAA53F41E70143100E54474 /* Build configuration list for PBXProject "CoreDataTest" */ = {
+		EAAA53F41E70143100E54474 /* Build configuration list for PBXProject "PhoneContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAAA54271E70143100E54474 /* Debug */,
@@ -504,29 +525,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAAA54291E70143100E54474 /* Build configuration list for PBXNativeTarget "CoreDataTest" */ = {
+		EAAA54291E70143100E54474 /* Build configuration list for PBXNativeTarget "PhoneContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAAA542A1E70143100E54474 /* Debug */,
 				EAAA542B1E70143100E54474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EAAA542C1E70143100E54474 /* Build configuration list for PBXNativeTarget "CoreDataTestTests" */ = {
+		EAAA542C1E70143100E54474 /* Build configuration list for PBXNativeTarget "PhoneContactsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAAA542D1E70143100E54474 /* Debug */,
 				EAAA542E1E70143100E54474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EAAA542F1E70143100E54474 /* Build configuration list for PBXNativeTarget "CoreDataTestUITests" */ = {
+		EAAA542F1E70143100E54474 /* Build configuration list for PBXNativeTarget "PhoneContactsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAAA54301E70143100E54474 /* Debug */,
 				EAAA54311E70143100E54474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
